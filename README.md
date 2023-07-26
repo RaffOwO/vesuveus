@@ -15,6 +15,7 @@ It's name /*vɛˈsuːviuəs*/ is derived by the volcano ___Vesuvius___ at Naples
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
     <img src="./media/vesuvius.jpg" alt="Mt. Vesuvius" width="400" style="border-radius:10px;" />
 </p>
+
 ## Why 40 Keys?
 
 You might wonder why I settled on 40 keys, right? Well, I tried everything from 34 to 48 keys, and this magical 40-key layout is the sweet spot for me! Let me break it down for you:
