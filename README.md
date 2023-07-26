@@ -1,6 +1,8 @@
 # Vesuveus - The Smol Ergonomic Mechanical Keyboard
 
-<img src="./media/icon.png" alt="vesuveus keyboard" style="border-radius:10px;" />
+<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+  <img src="./media/icon.png" alt="vesuveus keyboard" width="600" style="border-radius: 10px;" />
+</p>
 
 Hey there! Welcome to Vesuveus, a cute and ergonomic mechanical keyboard! This little wonder is heavily inspired by the [nine-nano](https://github.com/bsag/nine-nano) by bsag and the [atreus](https://shop.keyboard.io/products/keyboardio-atreus) by keeboardio and I'm super excited to tell you all about it.
 
@@ -10,21 +12,24 @@ Vesuveus is a compact, pocketable keyboard with 40 keys that packs a punch!
 It's carefully designed to be your trusty sidekick for every task, whether you're coding, designing, or just having some typing fun.
 
 It's name /*vɛˈsuːviuəs*/ is derived by the volcano ___Vesuvius___ at Naples 🍕🤏.
-
-<img src="./media/vesuvius.jpg" alt="Mt. Vesuvius" width="400" style="border-radius:10px;" />
-
+<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="./media/vesuvius.jpg" alt="Mt. Vesuvius" width="400" style="border-radius:10px;" />
+</p>
 ## Why 40 Keys?
 
 You might wonder why I settled on 40 keys, right? Well, I tried everything from 34 to 48 keys, and this magical 40-key layout is the sweet spot for me! Let me break it down for you:
 
 - **34 or 36 layouts** are great for programmers and have a minimal footprint. But they drive me crazy when I switch to *mouse-centric* apps like Inkscape or PowerPoint. I need those modifier keys and an arrow cluster, man! That's why keyboards like the [bgkeeb](https://github.com/sadekbaroudi/bgkeeb) from sadekbaroudi and the [Sweep](https://github.com/davidphilipbarr/Sweep) by davidphilipbarr couldn't fully satisfy my needs.
 
-<img src="./media/34KeysLayout.jpg" alt="34-KeysLayout" width="400" style="border-radius:10px;"/>
-
+<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="./media/34KeysLayout.jpg" alt="34-KeysLayout" width="400" style="border-radius:10px;"/>
+</p>
 
 - On the other hand, **46 or 48 layouts** feel like chaos and totally ignore the whole ergonomic idea. I mean, making my pinky press 4 to 6 keys? That's madness! Even with some cheats like using my ring finger for the top row, my pinky still ends up responsible for 4 keys. It just doesn't feel right and isn't ergonomic at all. I designed some keyboards with this layout, but I never felt comfortable using them; if you would like something the [Frame-48](https://github.com/gregsqueeb/Frame-48) by gregsqueeb is a great option.
 
-<img src="./media/48KeysLayout.png" alt="48-KeysLayout" width="400"/>
+<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="./media/48KeysLayout.png" alt="48-KeysLayout" width="400"/>
+</p>
 
 So, the **40-key layout** gives me the best of both worlds - it's usable, comfortable, and doesn't take up too much space. I believe it achieves the perfect balance between _usability_, _comfort_, and _dimensions_.
 
@@ -99,26 +104,39 @@ What you need:
 ### Step by Step Guide
 
 #### 1. Glue the magnetic disks to the 3D printed parts
-<img src="./media/1stStep.jpg" alt="Art Attack!" width="400" style="border-radius:10px;"/>
+<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="./media/1stStep.jpg" alt="Art Attack!" width="400" style="border-radius:10px;"/>
+</p>
 
 ##### 2. Put the switches in the plate
-<img src="./media/2ndStep.jpg" alt="switches" width="400" style="border-radius:10px;"/>
+<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="./media/2ndStep.jpg" alt="switches" width="400" style="border-radius:10px;"/>
+</p>
 
 ##### 3. Solder the diodes
-<img src="./media/3rdStep.jpg" alt="diodes" width="400" style="border-radius:10px;"/>
+<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="./media/3rdStep.jpg" alt="diodes" width="400" style="border-radius:10px;"/>
+</p>
 
 ##### 4. Solder the wires
-<img src="./media/4thStep.jpg" alt="wires" width="400" style="border-radius:10px;"/>
+<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="./media/4thStep.jpg" alt="wires" width="400" style="border-radius:10px;"/>
+</p>
 
 ##### 5. Solder the MCU
-<img src="./media/5thStep.jpg" alt="MCU" width="400" style="border-radius:10px;"/>
+<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="./media/5thStep.jpg" alt="MCU" width="400" style="border-radius:10px;"/>
+</p>
 
 ##### 6. Put the keycaps
-<img src="./media/6thStep.jpg" alt="keycaps" width="400" style="border-radius:10px;"/>
+<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="./media/6thStep.jpg" alt="keycaps" width="400" style="border-radius:10px;"/>
+</p>
 
 ##### 7. Enjoy your Vesuveus!
-<img src="./media/7thStep.jpg" alt="Vesuveus" width="400" style="border-radius:10px;"/>
-
+<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="./media/7thStep.jpg" alt="Vesuveus" width="400" style="border-radius:10px;"/>
+</p>
 
 # Should You Try Vesuveus?
 
