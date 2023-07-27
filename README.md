@@ -35,6 +35,10 @@ So, the **40-key layout** gives me the best of both worlds - it's usable, comfor
 
 **Note**: I think that adding a extra side key for the pinky can be great (see the [TOTEM](https://github.com/GEIGEIGEIST/TOTEM) by GEIGEIGEIST layout) because we are accustomed to stretching the pinky sideways, but this would occupy more space on the desk and on the 3D printer, so I didn't feel to include that in this version. Maybe, in the future there will be a 42 keys version.
 
+<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="./media/layout.png" alt="Layout" width="400"/>
+</p>
+
 ## No Split? Hear Me Out!
 
 Yep, Vesuveus is a **unibody design**, and I know you might be thinking, "Why not go split?" Well, here's the deal:
