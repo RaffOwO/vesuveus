@@ -6,6 +6,11 @@
 
 Hey there! Welcome to Vesuveus, a cute and ergonomic mechanical keyboard! This little wonder is heavily inspired by the [nine-nano](https://github.com/bsag/nine-nano) by bsag and the [atreus](https://shop.keyboard.io/products/keyboardio-atreus) by keeboardio and I'm super excited to tell you all about it.
 
+<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+  <img src="./media/1stBuildRaffOwO.jpg" alt="vesuveus keyboard" width="400" style="border-radius: 10px;" />
+</p>
+
+
 ## What's Vesuveus Anyway?
 
 Vesuveus is a compact, pocketable keyboard with 40 keys that packs a punch! 
@@ -80,6 +85,13 @@ That being said, if you happen to come across a smooth af low-profile switch tha
 
 ---
 
+# Vesuveus in Action
+In this video, you can witness the silent and satisfying keystrokes of the Vesuveus mechanical keyboard. Please note that the video was recorded with a smartphone, so the quality might not be top-notch, but the typing experience is!
+
+[![Vesuveus in Action](https://img.youtube.com/vi/LMMimb1wSFk/0.jpg)](https://www.youtube.com/watch?v=LMMimb1wSFk)
+
+Stay tuned for more videos and pictures of the Vesuveus in action as I continue to explore and improve this little wonder!
+
 # How to build your own Vesuveus
 
 ## Some Technical and Design Details
@@ -89,7 +101,9 @@ I used RP2040 MCU and kmk (because i love Python) for my vesuveus but you can us
 The plate and the base are magnetic so you can easily open it and work on any issue without an hassle. For the build I suggest magnetic disks with 8cm in diameter with an height of 2cm, but anything lower than that should work just fine, just glue them in the circular spots.
 
 ## Build Guide! (WIP)
+This section is a work in progress, I will update it as soon as I can. Next time I will build another one of this beauty I will take more pictures and videos to make the guide more complete.
 
+### BOM (Bill of Materials)
 What you need:
 - 40 switches
 - 40 keycaps

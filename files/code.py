@@ -57,7 +57,7 @@ TABSHF = KC.HT(KC.TAB, KC.LSFT)
 # LGUI    LALT    ESCL2   TAVBL1  SPCSFT      BSPSHF  DELL1   TABL2   LEFT    DOWN
 # --------------------------------------------------------------------------------
 # N1      N2      N3      N4      N5          N6      N7      N8      N9      N0
-# `       [       ]       {       }           #       ?       %       :       ENTSHF
+# `       [       ]       (       )           #       ?       %       :       ENTSHF
 # LCTL    ^       *       -       =           .       '       |       UP      RIGHT
 # LGUI    LALT    LAYER3  TABL2   SPCSFT      BSPSHF  DELL2   LAYER3  LEFT    DOWN
 # --------------------------------------------------------------------------------
@@ -82,7 +82,7 @@ keyboard.keymap = [
 
     # NUM/SYM LAYER     
     [KC.N1,     KC.N2,      KC.N3,      KC.N4,      KC.N5,          KC.N6,      KC.N7,      KC.N8,      KC.N9,      KC.N0,
-     KC.GRV,    KC.LBRC,    KC.RBRC,    KC.LCBR,    KC.RCBR,        KC.HASH,    KC.QUES,    KC.PERC,    KC.COLN,    ENTSHF,
+     KC.TILD,   KC.LBRC,    KC.RBRC,    KC.LPRN,    KC.RPRN,        KC.HASH,    KC.QUES,    KC.PERC,    KC.COLN,    ENTSHF,
      KC.LCTL,   KC.CIRC,    KC.ASTR,    KC.MINS,    KC.EQL,         KC.DOT,     KC.QUOT,    KC.PIPE,    KC.UP,      KC.RIGHT,
      KC.LGUI,   KC.LALT,    LAYR3,      TABSHF,     SPCSFT,         BSPSHF,     DELSHF,     LAYR3,      KC.LEFT,    KC.DOWN],
 
