@@ -1,15 +1,10 @@
 # Vesuveus - The Smol Ergonomic Mechanical Keyboard
 
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-  <img src="./media/icon.svg" alt="vesuveus keyboard" width="600" style="border-radius: 10px;" />
+  <img src="./files/media/icon.png" alt="vesuveus keyboard" width="600" style="border-radius: 10px;" />
 </p>
 
 Hey there! Welcome to Vesuveus, a cute and ergonomic mechanical keyboard! This little wonder is heavily inspired by the [nine-nano](https://github.com/bsag/nine-nano) by bsag and the [atreus](https://shop.keyboard.io/products/keyboardio-atreus) by keeboardio and I'm super excited to tell you all about it.
-
-<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-  <img src="./media/1stBuildRaffOwO.jpg" alt="vesuveus keyboard" width="400" style="border-radius: 10px;" />
-</p>
-
 
 ## What's Vesuveus Anyway?
 
@@ -18,7 +13,7 @@ It's carefully designed to be your trusty sidekick for every task, whether you'r
 
 It's name /*vɛˈsuːviuəs*/ is derived by the volcano ___Vesuvius___ at Naples 🍕🤏.
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./media/vesuvius.jpg" alt="Mt. Vesuvius" width="400" style="border-radius:10px;" />
+    <img src="./files/media/vesuvius.jpg" alt="Mt. Vesuvius" width="400" style="border-radius:10px;" />
 </p>
 
 ## Why 40 Keys?
@@ -28,24 +23,24 @@ You might wonder why I settled on 40 keys, right? Well, I tried everything from 
 - **34 or 36 layouts** are great for programmers and have a minimal footprint. But they drive me crazy when I switch to *mouse-centric* apps like Inkscape or PowerPoint. I need those modifier keys and an arrow cluster, man! That's why keyboards like the [bgkeeb](https://github.com/sadekbaroudi/bgkeeb) from sadekbaroudi and the [Sweep](https://github.com/davidphilipbarr/Sweep) by davidphilipbarr couldn't fully satisfy my needs.
 
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./media/34KeysLayout.jpg" alt="34-KeysLayout" width="400" style="border-radius:10px;"/>
+    <img src="./files/media/34KeysLayout.jpg" alt="34-KeysLayout" width="400" style="border-radius:10px;"/>
 </p>
 
 - On the other hand, **46 or 48 layouts** feel like chaos and totally ignore the whole ergonomic idea. I mean, making my pinky press 4 to 6 keys? That's madness! Even with some cheats like using my ring finger for the top row, my pinky still ends up responsible for 4 keys. It just doesn't feel right and isn't ergonomic at all. I designed some keyboards with this layout, but I never felt comfortable using them; if you would like something the [Frame-48](https://github.com/gregsqueeb/Frame-48) by gregsqueeb is a great option.
 
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./media/48KeysLayout.png" alt="48-KeysLayout" width="400"/>
+    <img src="./files/media/48KeysLayout.png" alt="48-KeysLayout" width="400"/>
 </p>
 
 So, the **40-key layout** gives me the best of both worlds - it's usable, comfortable, and doesn't take up too much space. I believe it achieves the perfect balance between _usability_, _comfort_, and _dimensions_.
 
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./media/layout.svg" alt="Layout" width="400"/>
+    <img src="./files/media/layout.svg" alt="Layout" width="400"/>
 </p>
 
 **Note**: I think that adding a extra side key for the pinky can be great (see the [TOTEM](https://github.com/GEIGEIGEIST/TOTEM) by GEIGEIGEIST layout) because we are accustomed to stretching the pinky sideways, but this would occupy more space on the desk and on the 3D printer, so I didn't feel to include that in this version. Maybe, in the future there will be a 42 keys version.
 
-**Another Note**: For gaming I always used WASD but in this format is not possible, so I decided to use ESDF, but you can use whatever you want, another layer I tried to integrate that but it feels wrong when I alt-tab out of the game to write something; also increased the learning-curve by a lot, just because I had to memorize and swap in real time the keyboard configuration.
+**Another Note**: When it comes to gaming, I've traditionally used the WASD keys for movement. However, due to the compact layout of Vesuveus, I've opted for the ESDF configuration instead. This tweak allows for a more intuitive positioning of the fingers. I did experiment with introducing a separate gaming layer, but found that it disrupted my workflow, especially when switching between gaming and other tasks. This decision was based on maintaining usability and minimizing the learning curve, making Vesuveus versatile for various uses. Feel free to customize your layout as needed!
 
 ## No Split? Hear Me Out!
 
@@ -94,30 +89,51 @@ In this video, you can witness the silent and satisfying keystrokes of the Vesuv
 
 Stay tuned for more videos and pictures of the Vesuveus in action as I continue to explore and improve this little wonder!
 
-# How to build your own Vesuveus
+# How to build your own Vesuveus (WIP)
+
+In the alternative-versions folder you can find some OLD versions and other revisions made by the community, always appreciated!
+
+Note that this guide refers to the version that you can find in 'files/printables' directory!
+
+Also this section is a work in progress, I will update it as soon as I can. Next time I will build another one of this beauty I will take more pictures and videos to make the guide more complete.
 
 ## Some Technical and Design Details
 
-In the v1-August folder is an older revision that I showcased and used till the end of August 2023, it has two problems as explained at the end of the README file of that folder, but if you want to build that version you can still find the files in that folder.
-
 I used RP2040 MCU and kmk (because i love Python) for my vesuveus but you can use any MCU/firmware you want.
 
-The plate and the base are magnetic so you can easily open it and work on any issue without an hassle. For the build I suggest magnetic disks with 8cm in diameter with an height of 2cm, but anything lower than that should work just fine, just glue them in the circular spots.
-
-## Build Guide! (WIP)
-This section is a work in progress, I will update it as soon as I can. Next time I will build another one of this beauty I will take more pictures and videos to make the guide more complete.
+The plate and the base use magnetic disk so you can easily open it and work on any issue without an hassle. For the build I suggest magnetic disks with 8cm in diameter with an height of 2cm, but anything lower than that should work just fine, just glue them in the circular spots.
 
 ### BOM (Bill of Materials)
 What you need:
+
 - 40 switches
+    - any MX style switch will work
+
 - 40 keycaps
+    - any MX style keycap will work 
+
 - 40 diodes
-- 10 magnetic disks 8cm in diameter and 2cm in height (or lower)
-- 1 RP2040 MCU (or any other MCU you want)
+    - I used 1N4148 diodes, you can find them easily on Amazon or Aliexpress 
+
+- 10 magnetic disks
+    - I used [these](https://www.amazon.it/gp/product/B07Z5QZQZQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) but you can use any other magnetic disk you want as long as they are 8cm in diameter and 2cm in height (or less)
+
+- 1 MCU 
+    - I used a waveshare RP 2040 Zero, but you can use any other MCU you want as long is compatible with kmk and has at least 14 GPIO pins.
+
 - the plate and the base (3D printed)
-- some wires 
-- soldering equipment (I suggest the [pinecil](https://www.pine64.org/pinecil/) from pine64)
+    - you can find the STL/3MF files in the 'files/printables' directory
+
+- soldering equipment
+    - a soldering iron, community alwasy suggest [pinecil](https://www.pine64.org/pinecil/) but I used a cheap one from Amazon and it worked just fine
+
+    - soldering wire, I used 0.5mm diameter
+
+    - wires, I use 22 AWG wires but as always you can use any other wire you want
+
 - strong glue
+    - I used [this](https://www.amazon.it/gp/product/B07Z5QZQZQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) but you can use any other glue you want as long as it's strong enough to keep the magnetic disks in place
+    
 - a lot of patience, love and passion (but if you are here you already have that 🤍)
 
 ### Video Guide
@@ -128,37 +144,37 @@ What you need:
 
 #### 1. Glue the magnetic disks to the 3D printed parts
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./media/1stStep.jpg" alt="Art Attack!" width="400" style="border-radius:10px;"/>
+    <img src="./files/media/1stStep.jpg" alt="Art Attack!" width="400" style="border-radius:10px;"/>
 </p>
 
 ##### 2. Put the switches in the plate
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./media/2ndStep.jpg" alt="switches" width="400" style="border-radius:10px;"/>
+    <img src="./files/media/2ndStep.jpg" alt="switches" width="400" style="border-radius:10px;"/>
 </p>
 
 ##### 3. Solder the diodes
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./media/3rdStep.jpg" alt="diodes" width="400" style="border-radius:10px;"/>
+    <img src="./files/media/3rdStep.jpg" alt="diodes" width="400" style="border-radius:10px;"/>
 </p>
 
 ##### 4. Solder the wires
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./media/4thStep.jpg" alt="wires" width="400" style="border-radius:10px;"/>
+    <img src="./files/media/4thStep.jpg" alt="wires" width="400" style="border-radius:10px;"/>
 </p>
 
 ##### 5. Solder the MCU
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./media/5thStep.jpg" alt="MCU" width="400" style="border-radius:10px;"/>
+    <img src="./files/media/5thStep.jpg" alt="MCU" width="400" style="border-radius:10px;"/>
 </p>
 
 ##### 6. Put the keycaps
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./media/6thStep.jpg" alt="keycaps" width="400" style="border-radius:10px;"/>
+    <img src="./files/media/6thStep.jpg" alt="keycaps" width="400" style="border-radius:10px;"/>
 </p>
 
 ##### 7. Enjoy your Vesuveus!
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./media/7thStep.jpg" alt="Vesuveus" width="400" style="border-radius:10px;"/>
+    <img src="./files/media/7thStep.jpg" alt="Vesuveus" width="400" style="border-radius:10px;"/>
 </p>
 
 # Should You Try Vesuveus?
