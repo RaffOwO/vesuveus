@@ -1,7 +1,7 @@
 # Vesuveus - The Smol Ergonomic Mechanical Keyboard
 
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-  <img src="./media/icon.png" alt="vesuveus keyboard" width="600" style="border-radius: 10px;" />
+  <img src="./media/icon.svg" alt="vesuveus keyboard" width="600" style="border-radius: 10px;" />
 </p>
 
 Hey there! Welcome to Vesuveus, a cute and ergonomic mechanical keyboard! This little wonder is heavily inspired by the [nine-nano](https://github.com/bsag/nine-nano) by bsag and the [atreus](https://shop.keyboard.io/products/keyboardio-atreus) by keeboardio and I'm super excited to tell you all about it.
@@ -40,10 +40,12 @@ You might wonder why I settled on 40 keys, right? Well, I tried everything from 
 So, the **40-key layout** gives me the best of both worlds - it's usable, comfortable, and doesn't take up too much space. I believe it achieves the perfect balance between _usability_, _comfort_, and _dimensions_.
 
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./media/layout.png" alt="Layout" width="400"/>
+    <img src="./media/layout.svg" alt="Layout" width="400"/>
 </p>
 
 **Note**: I think that adding a extra side key for the pinky can be great (see the [TOTEM](https://github.com/GEIGEIGEIST/TOTEM) by GEIGEIGEIST layout) because we are accustomed to stretching the pinky sideways, but this would occupy more space on the desk and on the 3D printer, so I didn't feel to include that in this version. Maybe, in the future there will be a 42 keys version.
+
+**Another Note**: For gaming I always used WASD but in this format is not possible, so I decided to use ESDF, but you can use whatever you want, another layer I tried to integrate that but it feels wrong when I alt-tab out of the game to write something; also increased the learning-curve by a lot, just because I had to memorize and swap in real time the keyboard configuration.
 
 ## No Split? Hear Me Out!
 
@@ -95,6 +97,8 @@ Stay tuned for more videos and pictures of the Vesuveus in action as I continue 
 # How to build your own Vesuveus
 
 ## Some Technical and Design Details
+
+In the v1-August folder is an older revision that I showcased and used till the end of August 2023, it has two problems as explained at the end of the README file of that folder, but if you want to build that version you can still find the files in that folder.
 
 I used RP2040 MCU and kmk (because i love Python) for my vesuveus but you can use any MCU/firmware you want.
 
