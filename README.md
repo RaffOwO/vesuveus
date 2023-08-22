@@ -80,8 +80,6 @@ Mathematically speaking, using low-profile switches could reduce the height of t
 
 That being said, if you happen to come across a smooth af low-profile switch that could change my mind, please let me know! I'm always open to exploring new possibilities and refining Vesuveus to make it even better for the community of keyboard enthusiasts. So, for now, Vesuveus stands proud with its classic key switches, and I hope you'll still find it to be an amazing companion for your travels and everyday use! 😄
 
----
-
 # Vesuveus in Action
 In this video, you can witness the silent and satisfying keystrokes of the Vesuveus mechanical keyboard. Please note that the video was recorded with a smartphone, so the quality might not be top-notch, but the typing experience is!
 
@@ -89,94 +87,8 @@ In this video, you can witness the silent and satisfying keystrokes of the Vesuv
 
 Stay tuned for more videos and pictures of the Vesuveus in action as I continue to explore and improve this little wonder!
 
-# How to build your own Vesuveus (WIP)
-
-In the alternative-versions folder you can find some OLD versions and other revisions made by the community, always appreciated!
-
-Note that this guide refers to the version that you can find in 'files/printables' directory!
-
-Also this section is a work in progress, I will update it as soon as I can. Next time I will build another one of this beauty I will take more pictures and videos to make the guide more complete.
-
-## Some Technical and Design Details
-
-I used RP2040 MCU and kmk (because i love Python) for my vesuveus but you can use any MCU/firmware you want.
-
-The plate and the base use magnetic disk so you can easily open it and work on any issue without an hassle. For the build I suggest magnetic disks with 8cm in diameter with an height of 2cm, but anything lower than that should work just fine, just glue them in the circular spots.
-
-### BOM (Bill of Materials)
-What you need:
-
-- 40 switches
-    - any MX style switch will work
-
-- 40 keycaps
-    - any MX style keycap will work 
-
-- 40 diodes
-    - I used 1N4148 diodes, you can find them easily on Amazon or Aliexpress 
-
-- 10 magnetic disks
-    - I used [these](https://www.amazon.it/gp/product/B07Z5QZQZQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) but you can use any other magnetic disk you want as long as they are 8cm in diameter and 2cm in height (or less)
-
-- 1 MCU 
-    - I used a waveshare RP 2040 Zero, but you can use any other MCU you want as long is compatible with kmk and has at least 14 GPIO pins.
-
-- the plate and the base (3D printed)
-    - you can find the STL/3MF files in the 'files/printables' directory
-
-- soldering equipment
-    - a soldering iron, community alwasy suggest [pinecil](https://www.pine64.org/pinecil/) but I used a cheap one from Amazon and it worked just fine
-
-    - soldering wire, I used 0.5mm diameter
-
-    - wires, I use 22 AWG wires but as always you can use any other wire you want
-
-- strong glue
-    - I used [this](https://www.amazon.it/gp/product/B07Z5QZQZQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) but you can use any other glue you want as long as it's strong enough to keep the magnetic disks in place
-    
-- a lot of patience, love and passion (but if you are here you already have that 🤍)
-
-### Video Guide
-
-[Vesuveus Build Guide!](https:/youtube.com/)
-
-### Step by Step Guide
-
-#### 1. Glue the magnetic disks to the 3D printed parts
-<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./files/media/1stStep.jpg" alt="Art Attack!" width="400" style="border-radius:10px;"/>
-</p>
-
-##### 2. Put the switches in the plate
-<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./files/media/2ndStep.jpg" alt="switches" width="400" style="border-radius:10px;"/>
-</p>
-
-##### 3. Solder the diodes
-<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./files/media/3rdStep.jpg" alt="diodes" width="400" style="border-radius:10px;"/>
-</p>
-
-##### 4. Solder the wires
-<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./files/media/4thStep.jpg" alt="wires" width="400" style="border-radius:10px;"/>
-</p>
-
-##### 5. Solder the MCU
-<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./files/media/5thStep.jpg" alt="MCU" width="400" style="border-radius:10px;"/>
-</p>
-
-##### 6. Put the keycaps
-<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./files/media/6thStep.jpg" alt="keycaps" width="400" style="border-radius:10px;"/>
-</p>
-
-##### 7. Enjoy your Vesuveus!
-<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./files/media/7thStep.jpg" alt="Vesuveus" width="400" style="border-radius:10px;"/>
-</p>
-
 # Should You Try Vesuveus?
 
 Hey, if my madness intrigues you, why not give Vesuveus a try? I'd be more than happy to include your contributions or ideas in this project! Feel free to get in touch, and let's make some keyboard magic together! 😄
+
+You can find the build guide in the [files/README.md](./files/README.md) file.
