@@ -1,7 +1,7 @@
 # Vesuveus - The Smol Ergonomic Mechanical Keyboard
 
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-  <img src="./files/media/icon.png" alt="vesuveus keyboard" width="600" style="border-radius: 10px;" />
+  <img src="./files/media/iconv3wide.png" alt="vesuveus keyboard" width="600" style="border-radius: 10px;" />
 </p>
 
 Hey there! Welcome to Vesuveus, a cute and ergonomic mechanical keyboard! This little wonder is heavily inspired by the [nine-nano](https://github.com/bsag/nine-nano) by bsag and the [atreus](https://shop.keyboard.io/products/keyboardio-atreus) by keeboardio and I'm super excited to tell you all about it.
