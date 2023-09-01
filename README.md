@@ -61,6 +61,10 @@ Some folks might ask, "Why didn't you just get an Atreus?" Well, let me tell you
 - And don't get me started on the **uneven stagger** and that funky top row! I like my keyboard to be consistent and uniform. I know, it's a bit nitpicky, but it's just how I roll.
 
 So, I put my quirky preferences and design philosophies to work and created this perfect balance - ***Vesuveus***!
+<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+  <img src="./files/media//1stBuildRaffOwO.jpg" alt="vesuveus keyboard" width="400" style="border-radius: 10px;" />
+</p>
+
 
 ## Why Handwired? Ain't Got Time for PCBs!
 
