@@ -1,20 +1,27 @@
-# Vesuveus - The Smol Ergonomic Mechanical Keyboard
+# Vesuveus - *Small*, yet *Mighty*, Mechanical Keyboard
 
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-  <img src="./files/media/iconwide.png" alt="vesuveus keyboard" width="600" style="border-radius: 10px;" />
+  <img src="./files/media/iconwide.png" alt="vesuveus keyboard" width="1000" style="border-radius: 10px;" />
 </p>
 
-Hey there! Welcome to Vesuveus, a cute and ergonomic mechanical keyboard! This little wonder is heavily inspired by the [nine-nano](https://github.com/bsag/nine-nano) by bsag and the [atreus](https://shop.keyboard.io/products/keyboardio-atreus) by keeboardio and I'm super excited to tell you all about it.
+Hey there! Welcome to Vesuveus, a cute and ergonomic mechanical keyboard! This little wonder is heavily inspired by the community of keyboard enthusiasts and the amazing work they've done. There is a section where I list all the projects that inspired me, so make sure to check it out! Let's dive in, shall we?
 
-## What's Vesuveus Anyway?
-
+## What *is* the Vesuveus?
 Vesuveus is a compact, pocketable keyboard with 40 keys that packs a punch! 
-It's carefully designed to be your trusty sidekick for every task, whether you're coding, designing, or just having some typing fun.
+It's carefully designed to be your trusty sidekick for every task, whether you're coding, designing, gaming or just having some typing fun.
 
+<p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+  <img src="./files/media/projectScreen.png" alt="vesuveus keyboard" width="400" style="border-radius: 10px;" />
+</p>
 It's name /*vɛˈsuːviuəs*/ is derived by the volcano ___Vesuvius___ at Naples 🍕🤏.
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
     <img src="./files/media/vesuvius.jpg" alt="Mt. Vesuvius" width="400" style="border-radius:10px;" />
 </p>
+
+## The Design Philosophy
+
+I always admired ergonomic keyboards, but the mix of high prices and steep learning curve kept me, as well as many others, away from them. So this project I wanted to create a keyboard that is **ergonomic**, yet *accessible* to everyone.
+Affordability is a key factor in this project, so I tried to keep the cost as low as possible. I also wanted to make it easy to build. The two things that could be a barrier are a 3d printer and some soldering iron. But I think that nowadays, these two things are pretty common in the maker community. Still, if you don't own them ask some family members, a friend or even a local maker space to help you out.
 
 ## Why 40 Keys?
 
@@ -38,15 +45,15 @@ So, the **40-key layout** gives me the best of both worlds - it's usable, comfor
     <img src="./files/media/layout.svg" alt="Layout" width="400"/>
 </p>
 
-**Note**: I think that adding a extra side key for the pinky can be great (see the [TOTEM](https://github.com/GEIGEIGEIST/TOTEM) by GEIGEIGEIST layout) because we are accustomed to stretching the pinky sideways, but this would occupy more space on the desk and on the 3D printer, so I didn't feel to include that in this version. Maybe, in the future there will be a 42 keys version.
+**Note**: I think that adding a extra side key for the pinky could be great (see the [TOTEM](https://github.com/GEIGEIGEIST/TOTEM) by GEIGEIGEIST layout) because we are accustomed to stretching the pinky sideways, but this would occupy more space on the desk and on the 3D printer, so I didn't feel to include that in this version. Maybe, in the future there will be a 42 keys version.
 
-**Another Note**: When it comes to gaming, I've traditionally used the WASD keys for movement. However, due to the compact layout of Vesuveus, I've opted for the ESDF configuration instead. This tweak allows for a more intuitive positioning of the fingers. I did experiment with introducing a separate gaming layer, but found that it disrupted my workflow, especially when switching between gaming and other tasks. This decision was based on maintaining usability and minimizing the learning curve, making Vesuveus versatile for various uses. Feel free to customize your layout as needed!
+**Another Note**: When it comes to gaming, I've traditionally used the WASD keys for movement. However, due to the compact layout of Vesuveus, I've opted for the ESDF configuration instead. This tweak allows me to retain my muscle memory, one potential drawback is the intial configuration that i have to do when I install a new game. I did experiment with introducing a separate gaming layer, but found that it disrupted my workflow, especially when switching between gaming and other tasks. This decision was based on maintaining usability and minimizing the learning curve, making Vesuveus versatile for various uses. Feel free to customize your layout as needed!
 
 ## No Split? Hear Me Out!
 
 Yep, Vesuveus is a **unibody design**, and I know you might be thinking, "Why not go split?" Well, here's the deal:
 
-- **Split keyboards** have their perks, no doubt! I appreciate the adjustable positions for your shoulders; it's all about that ergonomic goodness. But they come with their own set of drawbacks too - like dealing with multiple MCUs or tangled cables. Plus, when you're on the go like me, a unibody is a lifesaver! It's easy to carry around, and the angled configuration still keeps my shoulders happy. Oh, and it plays nice with the mouse too! The last thing I want is a twist game on my desk trying to reach my mouse.
+- **Split keyboards** have their perks, no doubt! I appreciate the adjustable positions that open your shoulders even more; it's all about that ergonomic goodness. But they come with their own set of drawbacks too - like dealing with multiple MCUs or tangled cables. Plus, when you're on the go like me, a unibody is a lifesaver! It's easy to carry around, and the angled configuration still keeps my shoulders happy. Oh, and it plays nice with the mouse too! The last thing I want is a twist game on my desk trying to reach my mouse.
 
 ### Atreus? Nah, I Got This!
 
@@ -56,9 +63,7 @@ Some folks might ask, "Why didn't you just get an Atreus?" Well, let me tell you
 
 - Gotta have that **classic arrow cluster** for my work, and Atreus didn't quite cut it for that. It's an essential part of my workflow, and I don't want to miss it.
 
-- The **thumb keys** on Atreus are too high up; I prefer them a bit lower for that perfect feel. It's all about those little details that make a difference in daily use.
-
-- And don't get me started on the **uneven stagger** and that funky top row! I like my keyboard to be consistent and uniform. I know, it's a bit nitpicky, but it's just how I roll.
+- Also I wanted to make my tribute for the community challenging myself to design a keyboard from scratch.
 
 So, I put my quirky preferences and design philosophies to work and created this perfect balance - ***Vesuveus***!
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
