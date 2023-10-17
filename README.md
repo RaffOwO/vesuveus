@@ -4,14 +4,19 @@
   <img src="./files/media/iconwide.png" alt="vesuveus keyboard" width="1000" style="border-radius: 10px;" />
 </p>
 
-Hey there! Welcome to Vesuveus, a cute and ergonomic mechanical keyboard! This little wonder is heavily inspired by the community of keyboard enthusiasts and the amazing work they've done. There is a section where I list all the projects that inspired me, so make sure to check it out! Let's dive in, shall we?
+Hey there! I present to you the Vesuveus, a small, ergonomic mechanical keyboard! 
+
+This little wonder is heavily inspired by many amazing works of the community of the ergomech keyboard enthusiasts.
+
+- [reddit](reddit.com/r/ErgoMechKeyboards) is a great place to start if you want to learn more about the world of ergonomic mechanical keyboards.
 
 ## What *is* the Vesuveus?
-Vesuveus is a compact, pocketable keyboard with 40 keys that packs a punch! 
+Vesuveus is a compact, pocketable keyboard with 40 keys that packs-a-punch! 
+
 It's carefully designed to be your trusty sidekick for every task, whether you're coding, designing, gaming or just having some typing fun.
 
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-  <img src="./files/media/projectScreen.png" alt="vesuveus keyboard" width="400" style="border-radius: 10px;" />
+  <img src="./files/media/project.png" alt="vesuveus project" width="400" style="border-radius: 10px;" />
 </p>
 It's name /*vɛˈsuːviuəs*/ is derived by the volcano ___Vesuvius___ at Naples 🍕🤏.
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
@@ -20,8 +25,14 @@ It's name /*vɛˈsuːviuəs*/ is derived by the volcano ___Vesuvius___ at Naples
 
 ## The Design Philosophy
 
-I always admired ergonomic keyboards, but the mix of high prices and steep learning curve kept me, as well as many others, away from them. So this project I wanted to create a keyboard that is **ergonomic**, yet *accessible* to everyone.
-Affordability is a key factor in this project, so I tried to keep the cost as low as possible. I also wanted to make it easy to build. The two things that could be a barrier are a 3d printer and some soldering iron. But I think that nowadays, these two things are pretty common in the maker community. Still, if you don't own them ask some family members, a friend or even a local maker space to help you out.
+I've been admiring the world of mechanical keyboards for a while now, and I've wanted to make this project as an entry point for many that are scared to buy some expensive keyboard with the fear to not like it. I've been there, and I know how it feels. So, I wanted to make a keyboard that is:
+
+- Affordable, so you can try it without breaking the bank.
+- Ergonomic, so you can try the ergonomic world.
+- Easy to build, so you can have fun while building it.
+- Adaptable, so you can customize it to your needs.
+
+Let's dive into the details of the design and see how I've achieved these goals!
 
 ## Why 40 Keys?
 
