@@ -1,7 +1,7 @@
 # Vesuveus - *Small*, yet *Mighty*, Mechanical Keyboard
 
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-  <img src="./files/media/iconwide.png" alt="vesuveus keyboard" width="1000" style="border-radius: 10px;" />
+  <img src="./files/media/iconwide.png" alt="vesuveus keyboard" width="500" style="border-radius: 10px;" />
 </p>
 
 Hey there! I present to you the Vesuveus, a small, ergonomic mechanical keyboard! 
