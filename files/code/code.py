@@ -1,6 +1,6 @@
 # Author: Raffaele Castellano
-# Date: 2023-07-27
-# Version: 2.3
+# Date: 2023-11-3
+# Version: 3.0
 # Description: KMK firmware for the vesuveus keyboard
 
 # imports
@@ -26,14 +26,14 @@ layers = Layers()
 keyboard.modules.append(layers)
 
 holdtap = HoldTap()
-holdtap.tap_time = 150
+holdtap.tap_time = 300
 keyboard.modules.append(holdtap)
 
 modtap = ModTap()
 keyboard.modules.append(modtap)
 
 mousekeys = MouseKeys()
-mousekeys.max_speed = 10
+mousekeys.max_speed = 7
 mousekeys.move_step = 0
 mousekeys.scroll_step = 0
 keyboard.modules.append(mousekeys)
@@ -43,26 +43,18 @@ keyboard.modules.append(mousekeys)
 TABL1 = KC.LT(1, KC.TAB, prefer_hold=True)
 # delete on tap, layer1 on hold
 DELL1 = KC.LT(1, KC.DEL, prefer_hold=True)
-# esc on tap, layer1 on hold
-ESCL1 = KC.LT(1, KC.ESC, prefer_hold=True)
 # tab on tap, layer2 on hold
 TABL2 = KC.LT(2, KC.TAB, prefer_hold=True)
-# delete on tap, layer2 on hold
-DELL2 = KC.LT(2, KC.DEL, prefer_hold=True)
 # esc on tap, layer2 on hold
 ESCL2 = KC.LT(2, KC.ESC, prefer_hold=True)
 
 # tapmod:
 # spc on tap, shift on hold
-SPCSFT = KC.HT(KC.SPC, KC.LSFT, prefer_hold=True)
+SPCSFT = KC.HT(KC.SPC, KC.LSFT, prefer_hold=False)
 # enter on tap, shift on hold
 ENTSHF = KC.HT(KC.ENTER, KC.LSFT, prefer_hold=True)
 # backspace on tap, shift on hold
 BSPSHF = KC.HT(KC.BSPC, KC.LSFT, prefer_hold=True)
-# delete on tap, shift on hold
-DELSHF = KC.HT(KC.DEL, KC.LSFT, prefer_hold=True)
-# tab on tap, shift on hold
-TABSHF = KC.HT(KC.TAB, KC.LSFT, prefer_hold=True)
 
 # layouts
 # Q       W       E       R       T      ___     ___     Y       U       I       O       P
@@ -73,7 +65,7 @@ TABSHF = KC.HT(KC.TAB, KC.LSFT, prefer_hold=True)
 # N1      N2      N3      N4      N5     ___     ___     N6      N7      N8      N9      N0
 # `       [       ]       (       )      ___     ___     #       ~       &       '       ENTSHF
 # LSFT    /       *       -       =      ___     ___     ,       .       ?       UP      RSFT
-# LCTL    LGUI    LALT    ESCL2   TABL2  SPC     BSPC    DELL2   TABL2   LEFT    DOWN    RIGHT
+# LCTL    LGUI    LALT    ESCL2   TABL1  SPCSFT  BSPSHF  DELL1   TABL2   LEFT    DOWN    RIGHT
 # --------------------------------------------------------------------------------
 # F1      F2      F3      F4      F5     ___     ___     F6      F7      F8      F9      F10
 # F12     {       }       <       >      ___     ___     @       $       |       "       F11
@@ -94,7 +86,7 @@ keyboard.keymap = [
     [KC.N1,     KC.N2,      KC.N3,      KC.N4,      KC.N5,      KC.NO,          KC.NO,      KC.N6,      KC.N7,      KC.N8,      KC.N9,      KC.N0,
      KC.GRV,    KC.LBRC,    KC.RBRC,    KC.LPRN,    KC.RPRN,    KC.NO,          KC.NO,      KC.HASH,    KC.TILD,    KC.AMPR,    KC.QUOT,    ENTSHF,
      KC.LSFT,   KC.SLSH,    KC.ASTR,    KC.MINS,    KC.EQL,     KC.NO,          KC.NO,      KC.COMM,    KC.DOT,     KC.QUES,    KC.UP,      KC.RSFT,
-     KC.LCTL,   KC.LGUI,    KC.LALT,    ESCL2,      TABL2,      SPCSFT,         BSPSHF,     DELL2,      TABL2,      KC.LEFT,    KC.DOWN,    KC.RIGHT,],
+     KC.LCTL,   KC.LGUI,    KC.LALT,    ESCL2,      TABL1,      SPCSFT,         BSPSHF,     DELL1,      TABL2,      KC.LEFT,    KC.DOWN,    KC.RIGHT,],
 
     # FUN/SYM LAYER - MOUSE
     [KC.F1,     KC.F2,      KC.F3,      KC.F4,      KC.F5,      KC.NO,          KC.NO,      KC.F6,      KC.F7,      KC.F8,      KC.F9,      KC.F10,
