@@ -1,6 +1,6 @@
 # Author: Raffaele Castellano
-# Date: 2023-11-3
-# Version: 3.0
+# Date: 2023-07-27
+# Version: 2.3
 # Description: KMK firmware for the vesuveus keyboard
 
 # imports
@@ -80,7 +80,7 @@ keyboard.keymap = [
     [KC.Q,      KC.W,       KC.E,       KC.R,       KC.T,       KC.NO,          KC.NO,      KC.Y,       KC.U,       KC.I,       KC.O,       KC.P,      
      KC.A,      KC.S,       KC.D,       KC.F,       KC.G,       KC.NO,          KC.NO,      KC.H,       KC.J,       KC.K,       KC.L,       ENTSHF, 
      KC.LSFT,   KC.Z,       KC.X,       KC.C,       KC.V,       KC.NO,          KC.NO,      KC.B,       KC.N,       KC.M,       KC.UP,      KC.RSFT,    
-     KC.LCTL,   KC.LGUI,    KC.LALT,    ESCL2,      TABL1,      SPCSFT,         BSPSHF,     DELL1,      TABL2,      KC.LEFT,    KC.DOWN,    KC.RIGHT,],
+     KC.LCTL,   KC.LGUI,    KC.LALT,    ESCL2,      TABL1,      KC.SPC,         BSPSHF,     DELL1,      TABL2,      KC.LEFT,    KC.DOWN,    KC.RIGHT,],
 
     # NUM/SYM LAYER     
     [KC.N1,     KC.N2,      KC.N3,      KC.N4,      KC.N5,      KC.NO,          KC.NO,      KC.N6,      KC.N7,      KC.N8,      KC.N9,      KC.N0,
