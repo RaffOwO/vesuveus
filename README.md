@@ -29,20 +29,21 @@ Let's dive into the details of the design and see how I've achieved these goals!
 
 One of the primary concerns associated with ergonomic mechanical keyboards is their price point. I understand that the cost can be intimidating, particularly when you're uncertain whether it will align with your workflow and preferences. That's why I've designed Vesuveus to be a cost-effective option for those who are curious about ergonomic keyboards and want to give them a try.
 
-To get an estimate of your potential costs, consider the following components for your Vesuvius build:
+To get an estimate of your potential costs, consider the following components for your Vesuveus build:
 
 - 42 switches.
-- 42 1u keycaps.
+- 42 1u keycaps. (You could also use the mx-flat keycap I designed, you can find the STL file in the [files/printables](./files/printables) folder).
 - 42 diodes (1N4148).
 - 14 circular magnets (8mm x 2mm).
 - 1 MCU (I recommend an RP2040-Zero).
+- 24 or 22 AWG Wire (or any wire).
 - A 3D printed case (PLA or PETG), or the PCB when it becomes available.
 
 My own build costed around 40-50€, but you can achieve an even lower cost if you already have some of these components on hand.
 
 ## Ergonomics:
 
-As a full-time computer user, I find myself spending a significant amount of time typing, and I'm sure many of you can relate to that experience. That's precisely why I've prioritized ergonomics and comfort when designing Vesuvius, making it ideal for prolonged typing sessions. I've accomplished this by incorporating the following design elements:
+As a full-time computer user, I find myself spending a significant amount of time typing, and I'm sure many of you can relate to that experience. That's precisely why I've prioritized ergonomics and comfort when designing Vesuveus, making it ideal for prolonged typing sessions. I've accomplished this by incorporating the following design elements:
 
 - **Split Halves**: This feature widens the space between the two halves, promoting a more open and relaxed posture for the shoulders.
 - **Angled Split**: A 12-degree angle between the split halves minimizes the outward angle of the wrists, reducing strain and discomfort during use.
@@ -50,7 +51,7 @@ As a full-time computer user, I find myself spending a significant amount of tim
 
 ## Usability:
 
-Usability is another key factor I've carefully considered when designing Vesuvius. Much of this focus centers around the keyboard layout, which I've crafted to be as intuitive and user-friendly as possible. Over the past years, I've experimented with various layouts, from 34 to 48 keys, and the 42-key layout has proven to be the ideal balance for me. Let me break it down for you:
+Usability is another key factor I've carefully considered when designing Vesuveus. Much of this focus centers around the keyboard layout, which I've crafted to be as intuitive and user-friendly as possible. Over the past years, I've experimented with various layouts, from 34 to 48 keys, and the 42-key layout has proven to be the ideal balance for me. Let me break it down for you:
 
 - **34 or 36 layouts** are great for programmers and have a minimal footprint. However, they posed challenges when I needed to use mouse-centric apps like Inkscape or PowerPoint. I found myself missing essential modifier keys and an arrow cluster, which drove me to explore other options.
     
@@ -69,9 +70,9 @@ Usability is another key factor I've carefully considered when designing Vesuviu
   if you would like something the [Frame-48](https://github.com/gregsqueeb/Frame-48) by gregsqueeb is a great option.
 
 
-So, this **42-key layout** provides the best of both worlds. It offers usability, comfort, and an efficient use of space. This layout strikes the perfect balance between usability, comfort, and dimensions. Additionally, it retains familiar shortcuts with the placement of modifier keys (CTRL, ALT, etc.), and the arrow cluster is optimally positioned.
+So, this **42-key layout** provides the best of both worlds. It offers usability, comfort, and an efficient use of space. This layout strikes the perfect balance between usability, comfort, and dimensions. Additionally, it retains familiar shortcuts with the placement of modifier keys (CTRL, OS, ALT, etc.), and the arrow cluster is optimally positioned.
 
-What makes this layout truly remarkable is the need to memorize only two layers, which are mirrored to the thumbs. This allows you to access the full 104 keys without shifting the essential keys, such as space, arrows, or modifiers. It's easy to learn and use, making it an excellent choice for those new to the world of ergonomic mechanical keyboards.
+What makes this layout truly remarkable is the need to memorize only two layers, which are accessible by holding the thumb central and inner keys. This allows you to access the full 104 keys without shifting the essential keys, such as space, arrows, or modifiers. It's easy to learn and use, making it an excellent choice for those new to the world of ergonomic mechanical keyboards.
 
   <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
       <img src="./files/media/layout.svg" alt="Layout" width="400"/>
@@ -79,7 +80,7 @@ What makes this layout truly remarkable is the need to memorize only two layers,
 
   - **Note** - _common 42 layouts_: 
   
-    There are other 42 layouts, but they place an extra pinky column, which as I said before, I don't like. If you are interested in this layout I suggest the [piantor](https://github.com/beekeeb/piantor) from beekeeb.
+    There are other 42 layouts, but instead of placing the 3 switches along the bottom row, the they got an extra pinky column, which as I said before, I don't like. If you are interested in this layout I suggest the [piantor](https://github.com/beekeeb/piantor) from beekeeb.
 
   - **Note** - _extra pinky_: 
 
@@ -91,10 +92,10 @@ What makes this layout truly remarkable is the need to memorize only two layers,
 
 ## Adaptability:
 
-I've designed Vesuveus to be as adaptable as possible, software and hardware wise. Using KMK the keyboard can be configured to your liking, and the firmware can be easily modified to suit your needs. Also, the keyboard is designed to be compatible with a wide range of switches, keycaps, and other components. This adaptability allows you to customize your Vesuveus to your heart's content, making it a truly unique and personal keyboard. I'm planning to build a bluetooth version, using a 40mmx30mmx8mm battery and a BLE enabled MCU, so stay tuned for that!
+I've designed Vesuveus to be as adaptable as possible, software and hardware wise. Using KMK the keyboard can be configured to your liking, and the firmware can be easily modified to suit your needs. Also, the keyboard is designed to be compatible with a wide range of switches, keycaps, and other components. This adaptability allows you to customize your Vesuveus to your heart's content, making it a truly unique and personal keyboard.
 
 # Vesuveus in Action
-In this video, you can witness the silent and satisfying keystrokes of the Vesuveus mechanical keyboard. Please note that the video was recorded with a smartphone, so the quality might not be top-notch, but the typing experience is!
+In this video, you can witness satisfying keystrokes of the Vesuveus mechanical keyboard. Please note that the video was recorded with a smartphone, so the quality might not be top-notch, but the typing experience is!
 
 [![Vesuveus in Action](https://img.youtube.com/vi/LMMimb1wSFk/0.jpg)](https://www.youtube.com/watch?v=dZ_lzMvHjn4)
 

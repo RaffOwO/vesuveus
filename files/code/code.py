@@ -62,13 +62,13 @@ BSPSHF = KC.HT(KC.BSPC, KC.LSFT, prefer_hold=True)
 # LSFT    Z       X       C       V      ___     ___     B       N       M       UP      RSFT
 # LCTL    LGUI    LALT    ESCL2   TAVL1  SPCSFT  BSPSHF  DELL1   TABL2   LEFT    DOWN    RIGHT
 # --------------------------------------------------------------------------------
+# `       [       ]       (       )      ___     ___     #       ~       &       '       \
 # N1      N2      N3      N4      N5     ___     ___     N6      N7      N8      N9      N0
-# `       [       ]       (       )      ___     ___     #       ~       &       '       ENTSHF
 # LSFT    /       *       -       =      ___     ___     ,       .       ?       UP      RSFT
 # LCTL    LGUI    LALT    ESCL2   TABL1  SPCSFT  BSPSHF  DELL1   TABL2   LEFT    DOWN    RIGHT
 # --------------------------------------------------------------------------------
+# F11     {       }       <       >      ___     ___     @       $       |       "       F12
 # F1      F2      F3      F4      F5     ___     ___     F6      F7      F8      F9      F10
-# F12     {       }       <       >      ___     ___     @       $       |       "       F11
 # LSFT    %       ^       _       +      ___     ___     ;       :       !       MUP     RSFT
 # LCTL    LGUI    LALT    ESCL2   MLC    MRC     WHUP    WHDN    TABL2   MLEFT   MDOWN   MRIGHT
 # --------------------------------------------------------------------------------
@@ -83,14 +83,14 @@ keyboard.keymap = [
      KC.LCTL,   KC.LGUI,    KC.LALT,    ESCL2,      TABL1,      KC.SPC,         BSPSHF,     DELL1,      TABL2,      KC.LEFT,    KC.DOWN,    KC.RIGHT,],
 
     # NUM/SYM LAYER     
-    [KC.N1,     KC.N2,      KC.N3,      KC.N4,      KC.N5,      KC.NO,          KC.NO,      KC.N6,      KC.N7,      KC.N8,      KC.N9,      KC.N0,
-     KC.GRV,    KC.LBRC,    KC.RBRC,    KC.LPRN,    KC.RPRN,    KC.NO,          KC.NO,      KC.HASH,    KC.TILD,    KC.AMPR,    KC.QUOT,    ENTSHF,
+    [KC.GRV,    KC.LBRC,    KC.RBRC,    KC.LPRN,    KC.RPRN,    KC.NO,          KC.NO,      KC.HASH,    KC.TILD,    KC.AMPR,    KC.QUOT,    KC.BSLS,
+     KC.N1,     KC.N2,      KC.N3,      KC.N4,      KC.N5,      KC.NO,          KC.NO,      KC.N6,      KC.N7,      KC.N8,      KC.N9,      KC.N0,
      KC.LSFT,   KC.SLSH,    KC.ASTR,    KC.MINS,    KC.EQL,     KC.NO,          KC.NO,      KC.COMM,    KC.DOT,     KC.QUES,    KC.UP,      KC.RSFT,
      KC.LCTL,   KC.LGUI,    KC.LALT,    ESCL2,      TABL1,      SPCSFT,         BSPSHF,     DELL1,      TABL2,      KC.LEFT,    KC.DOWN,    KC.RIGHT,],
 
     # FUN/SYM LAYER - MOUSE
-    [KC.F1,     KC.F2,      KC.F3,      KC.F4,      KC.F5,      KC.NO,          KC.NO,      KC.F6,      KC.F7,      KC.F8,      KC.F9,      KC.F10,
-     KC.F12,    KC.LCBR,    KC.RCBR,    KC.LABK,    KC.RABK,    KC.NO,          KC.NO,      KC.AT,      KC.DLR,     KC.PIPE,    KC.DQUO,    KC.F11,
+    [KC.F11,    KC.LCBR,    KC.RCBR,    KC.LABK,    KC.RABK,    KC.NO,          KC.NO,      KC.AT,      KC.DLR,     KC.PIPE,    KC.DQUO,    KC.F12,
+     KC.F1,     KC.F2,      KC.F3,      KC.F4,      KC.F5,      KC.NO,          KC.NO,      KC.F6,      KC.F7,      KC.F8,      KC.F9,      KC.F10,
      KC.LSFT,   KC.PERC,    KC.CIRC,    KC.UNDS,    KC.PLUS,    KC.NO,          KC.NO,      KC.SCLN,    KC.COLN,    KC.EXLM,    KC.MS_UP,   KC.RSFT,
      KC.LCTL,   KC.LGUI,    KC.LALT,    ESCL2,      KC.MB_LMB,  KC.MB_RMB,      KC.MW_UP,   KC.MW_DN,   TABL2,      KC.MS_LT,   KC.MS_DN,   KC.MS_RT,],
 
