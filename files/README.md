@@ -34,11 +34,11 @@ What you need:
 - 42 diodes
     - I used 1N4148 diodes, you can find them easily on Amazon or Aliexpress 
 
-- 14 magnetic disks
+- 20 magnetic disks 8x2cm
     - I used [these](https://www.amazon.it/gp/product/B07Z5QZQZQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) but you can use any other magnetic disk you want as long as they are 8cm in diameter and 2cm in height (or less)
 
 - 1 MCU
-    - I used a waveshare RP 2040 Zero and a nicenano for the bluetooth version, but you can use any other MCU you want as long is compatible with KMK and has at least 14 GPIO pins.
+    - I used a waveshare RP 2040 Zero, but you can use any other MCU you want as long is compatible with KMK and has at least 14 GPIO pins.
 
 - the plate and the base (3D printed)
     - you can find the STL/3MF files in the 'files/printables' directory
